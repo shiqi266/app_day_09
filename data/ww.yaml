@@ -1,0 +1,11 @@
+key:
+  keys01:
+    e:
+      value: 你好
+    value: 你好
+  keys02:
+    e:
+    - 4
+    - 5
+    - 6
+    value: 456

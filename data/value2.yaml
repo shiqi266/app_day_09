@@ -1,0 +1,8 @@
+info : &data
+  name: "lili"
+  phone: "123456789"
+
+
+address:
+  <<: *data
+  detail: "TBD"

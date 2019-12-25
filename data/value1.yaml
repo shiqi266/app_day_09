@@ -1,0 +1,57 @@
+#skt: "lo"
+#kt: "lili"
+
+
+#对象
+#
+#value1: {"name":"张三"} #支持python数据类型
+#
+#value2: 李四 #支持自动转换数据类型
+#
+#
+#value3: 多层级关系
+#  name1: "张三"
+#  name2: "李四"
+
+#------数组----------
+#value4:
+#  - 1  # - 后必须加空格
+#  - 2
+
+
+#value5: [1,2,3]
+
+#value6: #字典 套 列表 套字典
+#  - name: "lili"
+#  - add: "TBD"
+
+
+#-----纯量------
+#value7: true
+#value8: false
+
+#value9: True
+#value10: False
+
+#------整数,浮点数----
+#value11: 12
+#value12: 1.11
+
+
+#----------空
+#value13: ~
+#value14: None #python数据 不支持
+#value16:  #没有任何内容支持
+
+#value17: null #支持
+
+#value18: "" #不支持
+
+
+#---------日期
+#value19: 2020-11-11 12:12:12  #返回值是datetime.datetime类型
+#value20: 2020-11-11  #datetime.date
+
+#value21: 12:12:12  #返回整数
+
+#value22: 2020-11-11 02:02:02 #如果是个位数一定要补0
